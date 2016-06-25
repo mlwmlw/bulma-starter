@@ -1,0 +1,21 @@
+{
+	"name": "bulma-starter",
+		"version": "1.0.0",
+		"description": "",
+		"main": "index.js",
+		"scripts": {
+			"test": "echo \"Error: no test specified\" && exit 1",
+			"build": "postcss --use autoprefixer --output css/style.css css/style.css",
+			"watch": "node-sass --watch --output-style compressed css/style.sass css/style.css &"
+		},
+		"author": "mlwmlw",
+		"license": "MIT",
+		"dependencies": {
+			"bulma": "0.0.28"
+		},
+		"devDependencies": {
+			"autoprefixer": "^6.3.3",
+			"node-sass": "^3.4.2",
+			"postcss-cli": "^2.5.1"
+		}
+}
